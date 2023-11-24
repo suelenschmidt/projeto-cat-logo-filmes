@@ -1,0 +1,54 @@
+body {
+  font-family: 'Bebas Neue', sans-serif;
+  text-align: center;
+  background-image: url("https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/background-aluraflix.png");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.half-color {
+  background: linear-gradient(to right, #ff0000 50%);
+  background-clip: text;
+  color: red;
+  display: inline-block;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.carousel {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.carousel img {
+  width: 200px; /* Defina a largura da imagem conforme necessário */
+  height: 300px; /* Defina a altura da imagem conforme necessário */
+  margin-right: 20px;
+  transition: transform 0.5s ease;
+}
+
+.carousel img:hover {
+  transform: scale(1.2); /* Ajuste o valor para aumentar ou diminuir o zoom */
+}
+
+.carousel img:last-child {
+  margin-right: 0;
+}
+.synopsis {
+  display: none;
+  color: #ffffff;
+  margin-top: 10px;
+}
