@@ -1,3 +1,15 @@
+@media screen and (max-width: 600px) {
+  .carousel img {
+      width: 100%;
+      height: auto;
+  }
+
+  .page-title {
+      font-size: 1.5em;
+  }
+}
+
+
 body {
   font-family: 'Bebas Neue', sans-serif;
   text-align: center;
@@ -21,6 +33,7 @@ body {
 }
 
 .page-title {
+  font-size: 2em;
   color: #ffffff;
   margin: 0 0 5px;
 }
@@ -34,8 +47,8 @@ body {
 }
 
 .carousel img {
-  width: 200px; /* Defina a largura da imagem conforme necessário */
-  height: 300px; /* Defina a altura da imagem conforme necessário */
+  width: 100%; /* Defina a largura da imagem conforme necessário */
+  height: auto; /* Defina a altura da imagem conforme necessário */
   margin-right: 20px;
   transition: transform 0.5s ease;
 }
@@ -48,6 +61,7 @@ body {
   margin-right: 0;
 }
 .synopsis {
+  font-size: 1em;
   display: none;
   color: #ffffff;
   margin-top: 10px;
